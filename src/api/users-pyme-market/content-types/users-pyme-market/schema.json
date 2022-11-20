@@ -1,0 +1,114 @@
+{
+  "kind": "collectionType",
+  "collectionName": "users_pyme_markets",
+  "info": {
+    "singularName": "users-pyme-market",
+    "pluralName": "users-pyme-markets",
+    "displayName": "UsersPymeMarket",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "uid"
+    },
+    "username": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "surname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    },
+    "confirmed": {
+      "type": "boolean"
+    },
+    "bloked": {
+      "type": "boolean",
+      "default": false
+    },
+    "role": {
+      "type": "string"
+    },
+    "adress": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "walletid": {
+      "type": "biginteger"
+    },
+    "traccountid": {
+      "type": "text"
+    },
+    "state": {
+      "type": "string"
+    },
+    "kyclevel": {
+      "type": "integer"
+    },
+    "ocupation": {
+      "type": "string"
+    },
+    "province": {
+      "type": "string"
+    },
+    "groupid": {
+      "type": "string"
+    },
+    "lang": {
+      "type": "string"
+    },
+    "sex": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "string"
+    },
+    "balance": {
+      "type": "float"
+    },
+    "pendingin": {
+      "type": "float"
+    },
+    "pendingout": {
+      "type": "float"
+    },
+    "createat": {
+      "type": "datetime"
+    },
+    "updatedat": {
+      "type": "datetime"
+    },
+    "lastlogin": {
+      "type": "datetime"
+    },
+    "sesiontoken": {
+      "type": "text"
+    },
+    "autorizetoken": {
+      "type": "text"
+    },
+    "tpclientid": {
+      "type": "string"
+    },
+    "tpclientsecret": {
+      "type": "string"
+    }
+  }
+}
